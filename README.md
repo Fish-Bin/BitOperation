@@ -179,4 +179,5 @@
  那么只需写一个工具类，暴露出获取和修改状态的方法，每次传入当前状态的int值，
  便可以获取某一个状态，也可以更新某一个状态。若还有不懂的地方，可以结合项目源码分析，也可移步[CSDN](https://blog.csdn.net/weixin_36194487/article/details/99661084)
  
- Demo可扫码下载：[apk](https://github.com/Fish-Bin/BitOperation/blob/master/apk.png)
+ Demo可扫码下载：
+ ![apk](https://github.com/Fish-Bin/BitOperation/blob/master/image/apk.png)
