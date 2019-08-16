@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="当前权限："
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_current_state"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="无"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_get_state"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:text="获取当前权限"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_add_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:text="添加手机号"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_del_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:text="删除手机号"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_add_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:text="添加邮箱"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_del_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:text="删除邮箱"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_add_certification"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:text="添加实名"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_del_certification"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"
+        android:gravity="center"
+        android:text="删除实名"
+        android:textSize="16dp" />
+
+</LinearLayout>
