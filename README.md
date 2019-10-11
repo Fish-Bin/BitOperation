@@ -182,7 +182,3 @@
  Demo可扫码下载：
  
  ![apk](https://github.com/Fish-Bin/BitOperation/blob/master/image/apk.png)
- 
- 零晨2点写的博客，实属不易，如果觉得对你们有帮助，求打赏！下方二维码，如果觉得还是没弄明白也可以下方二维码联系我，我会尽快给予答复。
- 
- ![pay](https://github.com/Fish-Bin/BitOperation/blob/master/image/pay.jpg)
